@@ -1,9 +1,10 @@
 import Image from 'next/image'
 
-export default function Home() {
+const HomePage = () => {
   return (
-    <main>
-      NEXT JS DEPLOY <Image src='/public/next.svg' width={394} height={80} alt='Next JS image' />
-    </main>
+    <div>
+      <Image src='/wallpaper2.jpg' alt='asd' width={500} height={500} />
+    </div>
   )
 }
+export default HomePage
